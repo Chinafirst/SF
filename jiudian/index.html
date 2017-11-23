@@ -1,55 +1,70 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8" />
 		<script src="js/move1.js"></script>
 		<script src="js/angular-1.4.6.min.js"></script>
 		<script src="js/angular-route.min.js"></script>
 		<script src="js_user/index.js"></script>
-		<link rel="stylesheet" type="text/css" href="sass/index.css"/>
+		<link rel="stylesheet" type="text/css" href="sass/index.css" />
 		<title></title>
 	</head>
+
 	<body ng-app="myapp" ng-controller="cont">
+		<!--//轮播部分-->
 		<div class="nav-lsb">
 			<div class="banner-lsb">
 				<ul class="img-lsb">
-					<li><img src="img/bannner.png"/></li>
-					<li><img src="img/bannner.png"/></li>
-					<li><img src="img/bannner.png"/></li>
-					<li><img src="img/bannner.png"/></li>
-					<li><img src="img/bannner.png"/></li>
+					<li style="z-index: 1;"><img src="img/bannner.png" /></li>
+					<li><img src="img/1.jpg" /></li>
+					<li><img src="img/2.jpg" /></li>
+					<li><img src="img/3.jpg" /></li>
+					<li><img src="img/4.jpg" /></li>
 				</ul>
 				<div class="text-lsb">
 					<div class="text">
-						<img src="img/btn_bottom.png" class="down"/>
-						<img src="img/btn_top.png" class="up"/>
+						<img src="img/btn_bottom.png" class="down" />
+						<img src="img/btn_top.png" class="up" />
 						<h2>欢迎您下榻西藏日喀则星月酒店！</h2>
 						<p>畅游西藏，就在西藏日喀则星月酒店！</p>
 						<p>西藏日喀则星月坐落于日喀则，得天独厚的地理位置，方便到达铜锣湾主要娱乐购物区和湾仔商业区，</p>
 						<p>步行至驰名香港的时代广场购物中心和铜锣湾地铁站仅需八分 钟。下榻香港丽都酒店，体验香港休闲购物的最大乐趣。</p>
 						<p>酒店另设免费穿梭巴士服务，往返于香港著名的购物中心－时代广场、位于湾仔的香港会议及展览中心、</p>
 						<p>位 于金钟的太古广场和位于中环的国际金融中心。</p>
+						<!--路由部分-->
 						<ul class="ul-lsb">
-							<li><a href="#/one">酒店设施</a></li>
-							<li><a href="#/two">酒店设施</a></li>
-							<li><a href="#/three">优惠设施</a></li>
-							<li><a href="#/four">新闻咨询</a></li>
-							<li><a href="#/five">西藏风光</a></li>
-						</ol>
+							<li style="border-color: #DA8D5A;opacity: 1;">
+								<a href="#/one">酒店设施</a>
+							</li>
+							<li>
+								<a href="#/two">酒店设施</a>
+							</li>
+							<li>
+								<a href="#/three">优惠设施</a>
+							</li>
+							<li>
+								<a href="#/four">新闻咨询</a>
+							</li>
+							<li>
+								<a href="#/five">西藏风光</a>
+							</li>
+							</ol>
 					</div>
-					
+
 				</div>
 			</div>
-		<div class="btn-lsb">
-			<ol class="ol-lsb">
-				<li class="active-lsb"></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ol>
+			<div class="btn-lsb">
+				<ol class="ol-lsb">
+					<li class="active-lsb"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ol>
+			</div>
 		</div>
-		</div>
-		<div ng-view></div>
+		<div ng-view class="main-lsb"></div>
 	</body>
+
 </html>
