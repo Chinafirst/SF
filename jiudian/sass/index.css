@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  list-style: none; }
+
+.nav-lsb {
+  width: 100%;
+  height: 620px;
+  margin: 0 auto; }
+  .nav-lsb .banner-lsb {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden; }
+    .nav-lsb .banner-lsb .img-lsb {
+      width: 100%;
+      height: 600px; }
+      .nav-lsb .banner-lsb .img-lsb li {
+        position: absolute;
+        width: 100%;
+        height: 600px; }
+        .nav-lsb .banner-lsb .img-lsb li img {
+          width: 100%;
+          height: 600px; }
+    .nav-lsb .banner-lsb .text-lsb {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 420px;
+      background: rgba(255, 255, 255, 0.5); }
+      .nav-lsb .banner-lsb .text-lsb .text {
+        position: relative;
+        width: 1000px;
+        height: 420px;
+        margin: 0 auto; }
+        .nav-lsb .banner-lsb .text-lsb .text h2 {
+          margin: 18px 0;
+          font-size: 28px; }
+        .nav-lsb .banner-lsb .text-lsb .text p {
+          margin-bottom: 15px; }
+        .nav-lsb .banner-lsb .text-lsb .text img {
+          position: absolute;
+          top: 42px;
+          right: 0;
+          width: 36px;
+          height: 30px; }
+        .nav-lsb .banner-lsb .text-lsb .text .up {
+          display: none; }
+        .nav-lsb .banner-lsb .text-lsb .text ul {
+          width: 984px;
+          margin: 0 auto; }
+          .nav-lsb .banner-lsb .text-lsb .text ul li {
+            float: left;
+            width: 142px;
+            height: 142px;
+            border-radius: 50%;
+            border: 10px solid gray;
+            background: gray;
+            margin-right: 68px;
+            text-align: center;
+            line-height: 122px;
+            opacity: .7; }
+            .nav-lsb .banner-lsb .text-lsb .text ul li a {
+              display: block;
+              color: white;
+              text-decoration: none; }
+          .nav-lsb .banner-lsb .text-lsb .text ul li:nth-of-type(5) {
+            margin-right: 0; }
+  .nav-lsb .btn-lsb {
+    width: 100%;
+    height: 20px;
+    background: #070707; }
+    .nav-lsb .btn-lsb ol {
+      width: 90px;
+      margin: 0 auto;
+      padding-top: 3px; }
+      .nav-lsb .btn-lsb ol li:nth-of-type(5) {
+        margin-right: 0; }
+
+ol li {
+  float: left;
+  width: 13px;
+  height: 13px;
+  margin-right: 6px;
+  background: #443240;
+  border-radius: 50%; }
+
+.active-lsb {
+  background: #DE9158; }
+
+/*# sourceMappingURL=index.css.map */
